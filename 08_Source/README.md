@@ -38,6 +38,3 @@ Disusun oleh: M. Naufal Ulul Albab (Programmer)
 - `main`: versi stabil
 - `dev`: integrasi
 - `feature/...`: pekerjaan per fitur, digabung ke `dev` lewat pull request
-
-## Akun demo
-(ntar akun demo nya taro di siin)
