@@ -40,4 +40,15 @@ Disusun oleh: M. Naufal Ulul Albab (Programmer)
 - `feature/...`: pekerjaan per fitur, digabung ke `dev` lewat pull request
 
 ## Akun demo
-(ntar akun demo nya taro di siin)
+Kode klinik: terpadu
+Kode MFA (semua akun): 123456
+
+| Peran | Username | Password |
+|---|---|---|
+| Pendaftaran | pendaftaran | siklinik123 |
+| Dokter | dokter | siklinik123 |
+| Apoteker | apoteker | siklinik123 |
+| Kasir | kasir | siklinik123 |
+| Manajer | manajer | siklinik123 |
+
+Admin platform: kode klinik `siklinik`, username `admin`, password `admin123`
