@@ -40,4 +40,4 @@ Disusun oleh: M. Naufal Ulul Albab (Programmer)
 - `feature/...`: pekerjaan per fitur, digabung ke `dev` lewat pull request
 
 ## Akun demo
-(isi akun demo di sini)
+(ntar akun demo nya taro di siin)
