@@ -23,16 +23,22 @@ Disusun oleh: M. Naufal Ulul Albab (Programmer)
    ```
 6. Buka http://localhost:3000
 
-## Struktur folder
+## Pola aplikasi: MVC
 ```
 08_Source/
-├── server.js        # server Express + endpoint API
-├── db.js            # koneksi PostgreSQL
-├── public/          # frontend (index.html, app.js, style.css)
-├── legacy/          # skrip migrasi lama dari SQLite
-├── .env.example     # contoh konfigurasi (tanpa password asli)
+├── server.js                 # titik masuk: siapkan DB, jalankan server
+├── src/
+│   ├── app.js                # setup Express (middleware, route, view)
+│   ├── config/database.js    # koneksi PostgreSQL
+│   ├── models/               # MODEL: query SQL ke database
+│   ├── controllers/          # CONTROLLER: logika per request
+│   └── routes/               # ROUTES: URL -> controller
+├── public/                   # VIEW: index.html, app.js, style.css
+├── legacy/                   # skrip migrasi lama dari SQLite
+├── .env.example              # contoh konfigurasi (tanpa password asli)
 └── package.json
 ```
+Alur request: Browser (View) -> Route -> Controller -> Model -> PostgreSQL, lalu kembali lagi.
 
 ## Branch
 - `main`: versi stabil
@@ -40,15 +46,4 @@ Disusun oleh: M. Naufal Ulul Albab (Programmer)
 - `feature/...`: pekerjaan per fitur, digabung ke `dev` lewat pull request
 
 ## Akun demo
-Kode klinik: terpadu
-Kode MFA (semua akun): 123456
-
-| Peran | Username | Password |
-|---|---|---|
-| Pendaftaran | pendaftaran | siklinik123 |
-| Dokter | dokter | siklinik123 |
-| Apoteker | apoteker | siklinik123 |
-| Kasir | kasir | siklinik123 |
-| Manajer | manajer | siklinik123 |
-
-Admin platform: kode klinik `siklinik`, username `admin`, password `admin123`
+(isi akun demo di sini)
