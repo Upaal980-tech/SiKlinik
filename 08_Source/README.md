@@ -46,4 +46,18 @@ Alur request: Browser (View) -> Route -> Controller -> Model -> PostgreSQL, lalu
 - `feature/...`: pekerjaan per fitur, digabung ke `dev` lewat pull request
 
 ## Akun demo
-(isi akun demo di sini)
+Kode MFA (langkah 2 login): `123456`
+
+### Klinik demo (kode klinik: `terpadu`)
+Password semua akun: `siklinik123`
+
+| Peran | Username |
+|---|---|
+| Pendaftaran | `pendaftaran` |
+| Dokter | `dokter` dan `dokter2` |
+| Apoteker | `apoteker` |
+| Kasir | `kasir` |
+| Manajer | `manajer` |
+
+### Admin platform (kode klinik: `siklinik`)
+Username `admin`, password `admin123`
